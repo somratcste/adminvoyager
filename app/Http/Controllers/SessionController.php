@@ -15,7 +15,7 @@ class SessionController extends Controller
     }
     // create new function for put method
     public function putSession(Request $request){
-      $request->session()->put('session_name','www.hc-kr.com');
+      $request->session()->put('session_name','www.somrat.info');
       echo 'a data hasbeen added to the session';
     }
     // create new function to delete session
