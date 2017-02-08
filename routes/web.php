@@ -28,3 +28,5 @@ Route::group(['prefix' => 'admin'], function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/user/activation/{token}', 'Auth\RegisterController@userActivation');
