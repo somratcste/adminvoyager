@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "455896c9ccccfb327333ea0dcb5218dd",
+    "content-hash": "ed80f7e4e06b39a6db2ddc5cde0d3f80",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -59,6 +59,42 @@
                 "preload"
             ],
             "time": "2016-09-16T12:50:15+00:00"
+        },
+        {
+            "name": "devdojo/chatter",
+            "version": "0.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thedevdojo/chatter.git",
+                "reference": "d0c52bac3277257548f48ed5cdf484ed6aae4313"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thedevdojo/chatter/zipball/d0c52bac3277257548f48ed5cdf484ed6aae4313",
+                "reference": "d0c52bac3277257548f48ed5cdf484ed6aae4313",
+                "shasum": ""
+            },
+            "require-dev": {
+                "illuminate/cache": "~5.1.20|5.2.*|5.3.*",
+                "illuminate/console": "~5.1.20|5.2.*|5.3.*",
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DevDojo\\Chatter\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Tony Lea",
+                    "email": "tony@devdojo.com"
+                }
+            ],
+            "description": "A simple forum package for your laravel app",
+            "time": "2017-01-20T17:02:35+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
