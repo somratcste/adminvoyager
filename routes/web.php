@@ -30,3 +30,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::get('/user/activation/{token}', 'Auth\RegisterController@userActivation');
+
+Route::get('session/get', 'SessionController@getSession');
+Route::get('session/put', 'SessionController@putSession');
+Route::get('session/forget', 'SessionController@forgetSession');
