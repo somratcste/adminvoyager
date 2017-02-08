@@ -14,7 +14,7 @@ class FileuploadingController extends Controller
     }
     // create new function for show uploaded page
     public function showfileupload(Request $request){
-      $file = $request -> file('image');
+      $file = $request-> file('image');
       // show the file name
       echo 'File Name : '.$file->getClientOriginalName();
       echo '<br>';

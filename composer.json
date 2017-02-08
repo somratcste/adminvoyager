@@ -9,7 +9,8 @@
         "devdojo/chatter": "0.2.*",
         "graham-campbell/markdown": "^7.1",
         "laravel/framework": "5.3.*",
-        "tcg/voyager": "^0.10.13"
+        "tcg/voyager": "^0.10.13" ,
+        "laravelcollective/html": "5.3.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
